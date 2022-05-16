@@ -5652,7 +5652,7 @@
             "name": "SaveItems"
           },
           "onStackTransfer": {
-            "name": "SaveItems"
+            "name": "LoadItems"
           },
           "name": "Slot #245",
           "x": 411,
