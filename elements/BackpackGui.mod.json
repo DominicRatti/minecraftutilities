@@ -110,7 +110,16 @@
           },
           "id": 4,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #4",
           "x": 69,
           "y": -1
@@ -124,7 +133,16 @@
           },
           "id": 5,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #5",
           "x": 87,
           "y": -1
@@ -138,7 +156,16 @@
           },
           "id": 6,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #6",
           "x": 105,
           "y": -1
@@ -152,7 +179,16 @@
           },
           "id": 7,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #7",
           "x": 123,
           "y": -1
@@ -166,7 +202,16 @@
           },
           "id": 8,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #8",
           "x": 141,
           "y": -1
@@ -180,7 +225,16 @@
           },
           "id": 9,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #9",
           "x": 159,
           "y": -1
@@ -194,7 +248,16 @@
           },
           "id": 10,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #10",
           "x": 177,
           "y": -1
@@ -208,7 +271,16 @@
           },
           "id": 11,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #11",
           "x": 195,
           "y": -1
@@ -222,7 +294,16 @@
           },
           "id": 12,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #12",
           "x": 213,
           "y": -1
@@ -236,7 +317,16 @@
           },
           "id": 13,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #13",
           "x": 231,
           "y": -1
@@ -250,7 +340,16 @@
           },
           "id": 14,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #14",
           "x": 249,
           "y": -1
@@ -264,7 +363,16 @@
           },
           "id": 15,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #15",
           "x": 267,
           "y": -1
@@ -278,7 +386,16 @@
           },
           "id": 16,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #16",
           "x": 285,
           "y": -1
@@ -292,7 +409,16 @@
           },
           "id": 17,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #17",
           "x": 303,
           "y": -1
@@ -306,7 +432,16 @@
           },
           "id": 18,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #18",
           "x": 321,
           "y": -1
@@ -320,7 +455,16 @@
           },
           "id": 19,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #19",
           "x": 339,
           "y": -1
@@ -335,6 +479,15 @@
           "id": 20,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #20",
           "x": 357,
           "y": -1
@@ -348,7 +501,16 @@
           },
           "id": 21,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #21",
           "x": 375,
           "y": -1
@@ -362,7 +524,16 @@
           },
           "id": 22,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #22",
           "x": 393,
           "y": -1
@@ -376,7 +547,16 @@
           },
           "id": 23,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #23",
           "x": 411,
           "y": -1
@@ -390,7 +570,16 @@
           },
           "id": 24,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #24",
           "x": -3,
           "y": 17
@@ -404,7 +593,16 @@
           },
           "id": 25,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #25",
           "x": 15,
           "y": 17
@@ -418,7 +616,16 @@
           },
           "id": 26,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #26",
           "x": 33,
           "y": 17
@@ -433,6 +640,15 @@
           "id": 27,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #27",
           "x": 51,
           "y": 17
@@ -446,7 +662,16 @@
           },
           "id": 28,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #28",
           "x": 69,
           "y": 17
@@ -460,7 +685,16 @@
           },
           "id": 29,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #29",
           "x": 87,
           "y": 17
@@ -474,7 +708,16 @@
           },
           "id": 30,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #30",
           "x": 105,
           "y": 17
@@ -488,7 +731,16 @@
           },
           "id": 31,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #31",
           "x": 123,
           "y": 17
@@ -502,7 +754,16 @@
           },
           "id": 32,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #32",
           "x": 141,
           "y": 17
@@ -516,7 +777,16 @@
           },
           "id": 33,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #33",
           "x": 159,
           "y": 17
@@ -530,7 +800,16 @@
           },
           "id": 34,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #34",
           "x": 177,
           "y": 17
@@ -544,7 +823,16 @@
           },
           "id": 35,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #35",
           "x": 195,
           "y": 17
@@ -558,7 +846,16 @@
           },
           "id": 36,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #36",
           "x": 213,
           "y": 17
@@ -572,7 +869,16 @@
           },
           "id": 37,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #37",
           "x": 231,
           "y": 17
@@ -586,7 +892,16 @@
           },
           "id": 38,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #38",
           "x": 249,
           "y": 17
@@ -600,7 +915,16 @@
           },
           "id": 39,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #39",
           "x": 267,
           "y": 17
@@ -614,7 +938,16 @@
           },
           "id": 40,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #40",
           "x": 285,
           "y": 17
@@ -629,6 +962,15 @@
           "id": 41,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #41",
           "x": 303,
           "y": 17
@@ -642,7 +984,16 @@
           },
           "id": 42,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #42",
           "x": 321,
           "y": 17
@@ -656,7 +1007,16 @@
           },
           "id": 43,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #43",
           "x": 339,
           "y": 17
@@ -670,7 +1030,16 @@
           },
           "id": 44,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #44",
           "x": 357,
           "y": 17
@@ -684,7 +1053,16 @@
           },
           "id": 45,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #45",
           "x": 375,
           "y": 17
@@ -698,7 +1076,16 @@
           },
           "id": 46,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #46",
           "x": 393,
           "y": 17
@@ -712,7 +1099,16 @@
           },
           "id": 47,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #47",
           "x": 411,
           "y": 17
@@ -726,7 +1122,16 @@
           },
           "id": 48,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #48",
           "x": -3,
           "y": 35
@@ -740,7 +1145,16 @@
           },
           "id": 49,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #49",
           "x": 15,
           "y": 35
@@ -754,7 +1168,16 @@
           },
           "id": 50,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #50",
           "x": 33,
           "y": 35
@@ -768,7 +1191,16 @@
           },
           "id": 51,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #51",
           "x": 51,
           "y": 35
@@ -782,7 +1214,16 @@
           },
           "id": 52,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #52",
           "x": 69,
           "y": 35
@@ -796,7 +1237,16 @@
           },
           "id": 53,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #53",
           "x": 87,
           "y": 35
@@ -810,7 +1260,16 @@
           },
           "id": 54,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #54",
           "x": 105,
           "y": 35
@@ -824,7 +1283,16 @@
           },
           "id": 55,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #55",
           "x": 123,
           "y": 35
@@ -838,7 +1306,16 @@
           },
           "id": 56,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #56",
           "x": 141,
           "y": 35
@@ -852,7 +1329,16 @@
           },
           "id": 57,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #57",
           "x": 159,
           "y": 35
@@ -866,7 +1352,16 @@
           },
           "id": 58,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #58",
           "x": 177,
           "y": 35
@@ -880,7 +1375,16 @@
           },
           "id": 59,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #59",
           "x": 195,
           "y": 35
@@ -894,7 +1398,16 @@
           },
           "id": 60,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #60",
           "x": 213,
           "y": 35
@@ -908,7 +1421,16 @@
           },
           "id": 61,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #61",
           "x": 231,
           "y": 35
@@ -922,7 +1444,16 @@
           },
           "id": 62,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #62",
           "x": 249,
           "y": 35
@@ -936,7 +1467,16 @@
           },
           "id": 63,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #63",
           "x": 267,
           "y": 35
@@ -950,7 +1490,16 @@
           },
           "id": 64,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "LoadItems"
+          },
           "name": "Slot #64",
           "x": 285,
           "y": 35
@@ -964,7 +1513,16 @@
           },
           "id": 65,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #65",
           "x": 303,
           "y": 35
@@ -978,7 +1536,16 @@
           },
           "id": 66,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #66",
           "x": 321,
           "y": 35
@@ -992,7 +1559,16 @@
           },
           "id": 67,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #67",
           "x": 339,
           "y": 35
@@ -1006,7 +1582,16 @@
           },
           "id": 68,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #68",
           "x": 357,
           "y": 35
@@ -1020,7 +1605,16 @@
           },
           "id": 69,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #69",
           "x": 375,
           "y": 35
@@ -1034,7 +1628,16 @@
           },
           "id": 70,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #70",
           "x": 393,
           "y": 35
@@ -1048,7 +1651,16 @@
           },
           "id": 71,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #71",
           "x": 411,
           "y": 35
@@ -1062,7 +1674,16 @@
           },
           "id": 72,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #72",
           "x": -3,
           "y": 53
@@ -1076,7 +1697,16 @@
           },
           "id": 73,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #73",
           "x": 15,
           "y": 53
@@ -1090,7 +1720,16 @@
           },
           "id": 74,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #74",
           "x": 33,
           "y": 53
@@ -1104,7 +1743,16 @@
           },
           "id": 75,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #75",
           "x": 51,
           "y": 53
@@ -1118,7 +1766,16 @@
           },
           "id": 76,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #76",
           "x": 69,
           "y": 53
@@ -1132,7 +1789,16 @@
           },
           "id": 77,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #77",
           "x": 87,
           "y": 53
@@ -1146,7 +1812,16 @@
           },
           "id": 78,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #78",
           "x": 105,
           "y": 53
@@ -1160,7 +1835,16 @@
           },
           "id": 79,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #79",
           "x": 123,
           "y": 53
@@ -1174,7 +1858,16 @@
           },
           "id": 80,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #80",
           "x": 141,
           "y": 53
@@ -1188,7 +1881,16 @@
           },
           "id": 81,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #81",
           "x": 159,
           "y": 53
@@ -1202,7 +1904,16 @@
           },
           "id": 82,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #82",
           "x": 177,
           "y": 53
@@ -1217,6 +1928,15 @@
           "id": 83,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #83",
           "x": 195,
           "y": 53
@@ -1230,7 +1950,16 @@
           },
           "id": 84,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #84",
           "x": 213,
           "y": 53
@@ -1244,7 +1973,16 @@
           },
           "id": 85,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #85",
           "x": 231,
           "y": 53
@@ -1258,7 +1996,16 @@
           },
           "id": 86,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #86",
           "x": 249,
           "y": 53
@@ -1272,7 +2019,16 @@
           },
           "id": 87,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #87",
           "x": 267,
           "y": 53
@@ -1286,7 +2042,16 @@
           },
           "id": 88,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #88",
           "x": 285,
           "y": 53
@@ -1300,7 +2065,16 @@
           },
           "id": 89,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #89",
           "x": 303,
           "y": 53
@@ -1314,7 +2088,16 @@
           },
           "id": 90,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #90",
           "x": 321,
           "y": 53
@@ -1328,7 +2111,16 @@
           },
           "id": 91,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #91",
           "x": 339,
           "y": 53
@@ -1342,7 +2134,16 @@
           },
           "id": 92,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #92",
           "x": 357,
           "y": 53
@@ -1356,7 +2157,16 @@
           },
           "id": 93,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #93",
           "x": 375,
           "y": 53
@@ -1370,7 +2180,16 @@
           },
           "id": 94,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #94",
           "x": 393,
           "y": 53
@@ -1384,7 +2203,16 @@
           },
           "id": 95,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #95",
           "x": 411,
           "y": 53
@@ -1398,7 +2226,16 @@
           },
           "id": 96,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #96",
           "x": -3,
           "y": 71
@@ -1412,7 +2249,16 @@
           },
           "id": 97,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #97",
           "x": 15,
           "y": 71
@@ -1426,7 +2272,16 @@
           },
           "id": 98,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #98",
           "x": 33,
           "y": 71
@@ -1440,7 +2295,16 @@
           },
           "id": 99,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #99",
           "x": 51,
           "y": 71
@@ -1454,7 +2318,16 @@
           },
           "id": 100,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #100",
           "x": 69,
           "y": 71
@@ -1468,7 +2341,16 @@
           },
           "id": 101,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #101",
           "x": 87,
           "y": 71
@@ -1482,7 +2364,16 @@
           },
           "id": 102,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #102",
           "x": 105,
           "y": 71
@@ -1496,7 +2387,16 @@
           },
           "id": 103,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #103",
           "x": 123,
           "y": 71
@@ -1510,7 +2410,16 @@
           },
           "id": 104,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #104",
           "x": 141,
           "y": 71
@@ -1524,7 +2433,16 @@
           },
           "id": 105,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #105",
           "x": 159,
           "y": 71
@@ -1538,7 +2456,16 @@
           },
           "id": 106,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #106",
           "x": 177,
           "y": 71
@@ -1552,7 +2479,16 @@
           },
           "id": 107,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #107",
           "x": 195,
           "y": 71
@@ -1566,7 +2502,16 @@
           },
           "id": 108,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #108",
           "x": 213,
           "y": 71
@@ -1580,7 +2525,16 @@
           },
           "id": 109,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #109",
           "x": 231,
           "y": 71
@@ -1594,7 +2548,16 @@
           },
           "id": 110,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #110",
           "x": 249,
           "y": 71
@@ -1608,7 +2571,16 @@
           },
           "id": 111,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #111",
           "x": 267,
           "y": 71
@@ -1622,7 +2594,16 @@
           },
           "id": 112,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #112",
           "x": 285,
           "y": 71
@@ -1636,7 +2617,16 @@
           },
           "id": 113,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #113",
           "x": 303,
           "y": 71
@@ -1650,7 +2640,16 @@
           },
           "id": 114,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #114",
           "x": 321,
           "y": 71
@@ -1664,7 +2663,16 @@
           },
           "id": 115,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #115",
           "x": 339,
           "y": 71
@@ -1678,7 +2686,16 @@
           },
           "id": 116,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #116",
           "x": 357,
           "y": 71
@@ -1692,7 +2709,16 @@
           },
           "id": 117,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #117",
           "x": 375,
           "y": 71
@@ -1706,7 +2732,16 @@
           },
           "id": 118,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #118",
           "x": 393,
           "y": 71
@@ -1720,7 +2755,16 @@
           },
           "id": 119,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #119",
           "x": 411,
           "y": 71
@@ -1734,7 +2778,16 @@
           },
           "id": 120,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #120",
           "x": -3,
           "y": 89
@@ -1748,7 +2801,16 @@
           },
           "id": 121,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #121",
           "x": 15,
           "y": 89
@@ -1762,7 +2824,16 @@
           },
           "id": 122,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #122",
           "x": 33,
           "y": 89
@@ -1776,7 +2847,16 @@
           },
           "id": 123,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #123",
           "x": 51,
           "y": 89
@@ -1790,7 +2870,16 @@
           },
           "id": 124,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #124",
           "x": 69,
           "y": 89
@@ -1804,7 +2893,16 @@
           },
           "id": 125,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #125",
           "x": 87,
           "y": 89
@@ -1818,7 +2916,16 @@
           },
           "id": 126,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #126",
           "x": 105,
           "y": 89
@@ -1832,7 +2939,16 @@
           },
           "id": 127,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #127",
           "x": 123,
           "y": 89
@@ -1846,7 +2962,16 @@
           },
           "id": 128,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #128",
           "x": 141,
           "y": 89
@@ -1860,7 +2985,16 @@
           },
           "id": 129,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #129",
           "x": 159,
           "y": 89
@@ -1874,7 +3008,16 @@
           },
           "id": 130,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #130",
           "x": 177,
           "y": 89
@@ -1888,7 +3031,16 @@
           },
           "id": 131,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #131",
           "x": 195,
           "y": 89
@@ -1902,7 +3054,16 @@
           },
           "id": 132,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #132",
           "x": 213,
           "y": 89
@@ -1916,7 +3077,16 @@
           },
           "id": 133,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #133",
           "x": 231,
           "y": 89
@@ -1930,7 +3100,16 @@
           },
           "id": 134,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #134",
           "x": 249,
           "y": 89
@@ -1944,7 +3123,16 @@
           },
           "id": 135,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #135",
           "x": 267,
           "y": 89
@@ -1958,7 +3146,16 @@
           },
           "id": 136,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #136",
           "x": 285,
           "y": 89
@@ -1972,7 +3169,16 @@
           },
           "id": 137,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #137",
           "x": 303,
           "y": 89
@@ -1986,7 +3192,16 @@
           },
           "id": 138,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #138",
           "x": 321,
           "y": 89
@@ -2000,7 +3215,16 @@
           },
           "id": 139,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #139",
           "x": 339,
           "y": 89
@@ -2014,7 +3238,16 @@
           },
           "id": 140,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #140",
           "x": 357,
           "y": 89
@@ -2028,7 +3261,16 @@
           },
           "id": 141,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #141",
           "x": 375,
           "y": 89
@@ -2042,7 +3284,16 @@
           },
           "id": 142,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #142",
           "x": 393,
           "y": 89
@@ -2056,7 +3307,16 @@
           },
           "id": 143,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #143",
           "x": 411,
           "y": 89
@@ -2070,7 +3330,16 @@
           },
           "id": 144,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #144",
           "x": -3,
           "y": 107
@@ -2084,7 +3353,16 @@
           },
           "id": 145,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #145",
           "x": 15,
           "y": 107
@@ -2098,7 +3376,16 @@
           },
           "id": 146,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #146",
           "x": 33,
           "y": 107
@@ -2112,7 +3399,16 @@
           },
           "id": 147,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #147",
           "x": 51,
           "y": 107
@@ -2126,7 +3422,16 @@
           },
           "id": 148,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #148",
           "x": 69,
           "y": 107
@@ -2140,7 +3445,16 @@
           },
           "id": 149,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #149",
           "x": 87,
           "y": 107
@@ -2154,7 +3468,16 @@
           },
           "id": 150,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #150",
           "x": 105,
           "y": 107
@@ -2168,7 +3491,16 @@
           },
           "id": 151,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #151",
           "x": 123,
           "y": 107
@@ -2182,7 +3514,16 @@
           },
           "id": 152,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #152",
           "x": 141,
           "y": 107
@@ -2196,7 +3537,16 @@
           },
           "id": 153,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #153",
           "x": 159,
           "y": 107
@@ -2210,7 +3560,16 @@
           },
           "id": 154,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #154",
           "x": 177,
           "y": 107
@@ -2224,7 +3583,16 @@
           },
           "id": 155,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #155",
           "x": 195,
           "y": 107
@@ -2239,6 +3607,15 @@
           "id": 156,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #156",
           "x": 213,
           "y": 107
@@ -2252,7 +3629,16 @@
           },
           "id": 157,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #157",
           "x": 231,
           "y": 107
@@ -2266,7 +3652,16 @@
           },
           "id": 158,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #158",
           "x": 249,
           "y": 107
@@ -2280,7 +3675,16 @@
           },
           "id": 159,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #159",
           "x": 267,
           "y": 107
@@ -2294,7 +3698,16 @@
           },
           "id": 160,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SetCreative"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #160",
           "x": 285,
           "y": 107
@@ -2308,7 +3721,16 @@
           },
           "id": 161,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #161",
           "x": 303,
           "y": 107
@@ -2322,7 +3744,16 @@
           },
           "id": 162,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #162",
           "x": 321,
           "y": 107
@@ -2336,7 +3767,16 @@
           },
           "id": 163,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #163",
           "x": 339,
           "y": 107
@@ -2350,7 +3790,16 @@
           },
           "id": 164,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #164",
           "x": 357,
           "y": 107
@@ -2364,7 +3813,16 @@
           },
           "id": 165,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #165",
           "x": 375,
           "y": 107
@@ -2378,7 +3836,16 @@
           },
           "id": 166,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #166",
           "x": 393,
           "y": 107
@@ -2392,7 +3859,16 @@
           },
           "id": 167,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #167",
           "x": 411,
           "y": 107
@@ -2406,7 +3882,16 @@
           },
           "id": 168,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SetCreative"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #168",
           "x": -3,
           "y": 125
@@ -2420,7 +3905,16 @@
           },
           "id": 169,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #169",
           "x": 15,
           "y": 125
@@ -2434,7 +3928,16 @@
           },
           "id": 170,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #170",
           "x": 33,
           "y": 125
@@ -2448,7 +3951,16 @@
           },
           "id": 171,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #171",
           "x": 51,
           "y": 125
@@ -2462,7 +3974,16 @@
           },
           "id": 172,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #172",
           "x": 69,
           "y": 125
@@ -2476,7 +3997,16 @@
           },
           "id": 173,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #173",
           "x": 87,
           "y": 125
@@ -2490,7 +4020,16 @@
           },
           "id": 174,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #174",
           "x": 105,
           "y": 125
@@ -2504,7 +4043,16 @@
           },
           "id": 175,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #175",
           "x": 123,
           "y": 125
@@ -2518,7 +4066,16 @@
           },
           "id": 176,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SetCreative"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #176",
           "x": 141,
           "y": 125
@@ -2532,7 +4089,16 @@
           },
           "id": 177,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #177",
           "x": 159,
           "y": 125
@@ -2546,7 +4112,16 @@
           },
           "id": 178,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SetCreative"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #178",
           "x": 177,
           "y": 125
@@ -2560,7 +4135,16 @@
           },
           "id": 179,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #179",
           "x": 195,
           "y": 125
@@ -2574,7 +4158,16 @@
           },
           "id": 180,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #180",
           "x": 213,
           "y": 125
@@ -2588,7 +4181,16 @@
           },
           "id": 181,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #181",
           "x": 231,
           "y": 125
@@ -2602,7 +4204,16 @@
           },
           "id": 182,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #182",
           "x": 249,
           "y": 125
@@ -2616,7 +4227,16 @@
           },
           "id": 183,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #183",
           "x": 267,
           "y": 125
@@ -2630,7 +4250,16 @@
           },
           "id": 184,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #184",
           "x": 285,
           "y": 125
@@ -2644,7 +4273,16 @@
           },
           "id": 185,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #185",
           "x": 303,
           "y": 125
@@ -2658,7 +4296,16 @@
           },
           "id": 186,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #186",
           "x": 321,
           "y": 125
@@ -2672,7 +4319,16 @@
           },
           "id": 187,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #187",
           "x": 339,
           "y": 125
@@ -2686,7 +4342,16 @@
           },
           "id": 188,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #188",
           "x": 357,
           "y": 125
@@ -2700,7 +4365,16 @@
           },
           "id": 189,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SetCreative"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #189",
           "x": 375,
           "y": 125
@@ -2714,7 +4388,16 @@
           },
           "id": 190,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #190",
           "x": 393,
           "y": 125
@@ -2728,7 +4411,16 @@
           },
           "id": 191,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #191",
           "x": 411,
           "y": 125
@@ -2742,7 +4434,16 @@
           },
           "id": 192,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #192",
           "x": -3,
           "y": 143
@@ -2756,7 +4457,16 @@
           },
           "id": 193,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #193",
           "x": 15,
           "y": 143
@@ -2770,7 +4480,16 @@
           },
           "id": 194,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #194",
           "x": 33,
           "y": 143
@@ -2784,7 +4503,16 @@
           },
           "id": 195,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #195",
           "x": 51,
           "y": 143
@@ -2798,7 +4526,16 @@
           },
           "id": 196,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #196",
           "x": 69,
           "y": 143
@@ -2812,7 +4549,16 @@
           },
           "id": 197,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SetCreative"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #197",
           "x": 87,
           "y": 143
@@ -2826,7 +4572,16 @@
           },
           "id": 198,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #198",
           "x": 105,
           "y": 143
@@ -2854,7 +4609,16 @@
           },
           "id": 200,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #200",
           "x": 141,
           "y": 143
@@ -2868,7 +4632,16 @@
           },
           "id": 201,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #201",
           "x": 159,
           "y": 143
@@ -2882,7 +4655,16 @@
           },
           "id": 202,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #202",
           "x": 177,
           "y": 143
@@ -2896,7 +4678,16 @@
           },
           "id": 203,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #203",
           "x": 195,
           "y": 143
@@ -2910,7 +4701,16 @@
           },
           "id": 204,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #204",
           "x": 213,
           "y": 143
@@ -2924,7 +4724,16 @@
           },
           "id": 205,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #205",
           "x": 231,
           "y": 143
@@ -2938,7 +4747,16 @@
           },
           "id": 206,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #206",
           "x": 249,
           "y": 143
@@ -2952,7 +4770,16 @@
           },
           "id": 207,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #207",
           "x": 267,
           "y": 143
@@ -2966,7 +4793,16 @@
           },
           "id": 208,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #208",
           "x": 285,
           "y": 143
@@ -2980,7 +4816,16 @@
           },
           "id": 209,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #209",
           "x": 303,
           "y": 143
@@ -2994,7 +4839,16 @@
           },
           "id": 210,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #210",
           "x": 321,
           "y": 143
@@ -3008,7 +4862,16 @@
           },
           "id": 211,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #211",
           "x": 339,
           "y": 143
@@ -3022,7 +4885,16 @@
           },
           "id": 212,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #212",
           "x": 357,
           "y": 143
@@ -3036,7 +4908,16 @@
           },
           "id": 213,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #213",
           "x": 375,
           "y": 143
@@ -3050,7 +4931,16 @@
           },
           "id": 214,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #214",
           "x": 393,
           "y": 143
@@ -3064,7 +4954,16 @@
           },
           "id": 215,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #215",
           "x": 411,
           "y": 143
@@ -3078,7 +4977,16 @@
           },
           "id": 216,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #216",
           "x": -3,
           "y": 161
@@ -3092,7 +5000,16 @@
           },
           "id": 217,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #217",
           "x": 15,
           "y": 161
@@ -3106,7 +5023,16 @@
           },
           "id": 218,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #218",
           "x": 33,
           "y": 161
@@ -3120,7 +5046,16 @@
           },
           "id": 219,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #219",
           "x": 51,
           "y": 161
@@ -3134,7 +5069,16 @@
           },
           "id": 220,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SetCreative"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #220",
           "x": 69,
           "y": 161
@@ -3148,7 +5092,16 @@
           },
           "id": 221,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #221",
           "x": 87,
           "y": 161
@@ -3162,7 +5115,16 @@
           },
           "id": 222,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #222",
           "x": 105,
           "y": 161
@@ -3176,7 +5138,16 @@
           },
           "id": 223,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #223",
           "x": 285,
           "y": 161
@@ -3190,7 +5161,16 @@
           },
           "id": 224,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #224",
           "x": 303,
           "y": 161
@@ -3204,7 +5184,16 @@
           },
           "id": 225,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #225",
           "x": 321,
           "y": 161
@@ -3218,7 +5207,16 @@
           },
           "id": 226,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #226",
           "x": 339,
           "y": 161
@@ -3232,7 +5230,16 @@
           },
           "id": 227,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #227",
           "x": 357,
           "y": 161
@@ -3246,7 +5253,16 @@
           },
           "id": 228,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #228",
           "x": 375,
           "y": 161
@@ -3260,7 +5276,16 @@
           },
           "id": 229,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #229",
           "x": 393,
           "y": 161
@@ -3274,7 +5299,16 @@
           },
           "id": 230,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #230",
           "x": 411,
           "y": 161
@@ -3288,7 +5322,16 @@
           },
           "id": 231,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SetCreative"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #231",
           "x": -3,
           "y": 179
@@ -3302,7 +5345,16 @@
           },
           "id": 232,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #232",
           "x": 15,
           "y": 179
@@ -3316,7 +5368,16 @@
           },
           "id": 233,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #233",
           "x": 33,
           "y": 179
@@ -3330,7 +5391,16 @@
           },
           "id": 234,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #234",
           "x": 51,
           "y": 179
@@ -3344,7 +5414,16 @@
           },
           "id": 235,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #235",
           "x": 69,
           "y": 179
@@ -3358,7 +5437,16 @@
           },
           "id": 236,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #236",
           "x": 87,
           "y": 179
@@ -3372,7 +5460,16 @@
           },
           "id": 237,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #237",
           "x": 105,
           "y": 179
@@ -3386,7 +5483,16 @@
           },
           "id": 238,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #238",
           "x": 285,
           "y": 179
@@ -3400,7 +5506,16 @@
           },
           "id": 239,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #239",
           "x": 303,
           "y": 179
@@ -3414,7 +5529,16 @@
           },
           "id": 240,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #240",
           "x": 321,
           "y": 179
@@ -3428,7 +5552,16 @@
           },
           "id": 241,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #241",
           "x": 339,
           "y": 179
@@ -3442,7 +5575,16 @@
           },
           "id": 242,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #242",
           "x": 357,
           "y": 179
@@ -3456,7 +5598,16 @@
           },
           "id": 243,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #243",
           "x": 375,
           "y": 179
@@ -3470,7 +5621,16 @@
           },
           "id": 244,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #244",
           "x": 393,
           "y": 179
@@ -3484,7 +5644,16 @@
           },
           "id": 245,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #245",
           "x": 411,
           "y": 179
