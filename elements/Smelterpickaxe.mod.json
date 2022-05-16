@@ -1,0 +1,30 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "smelterpickaxe",
+    "customModelName": "Normal",
+    "name": "Smelterpickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MinecraftUtilities"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 12.0,
+    "attackSpeed": 1.2,
+    "enchantability": 2,
+    "damageVsEntity": 6.0,
+    "usageCount": 2031,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "AutoSmelting"
+    }
+  }
+}

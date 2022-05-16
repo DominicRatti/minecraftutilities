@@ -139,18 +139,80 @@
       "locked_code": false,
       "registry_name": "gms",
       "path": "~/SemplifiedCommand"
+    },
+    {
+      "name": "AutoSmelting",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_smelting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "MinecraftUtilities",
+      "type": "tab",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraft_utilities"
+    },
+    {
+      "name": "Smelterpickaxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelterpickaxe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Smelterpickaxerecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelterpickaxerecipe",
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "itemGroup.tabminecraft_utilities": "Minecraft Utilities",
+      "item.minecraftutilities.smelterpickaxe": "Smelterpickaxe"
+    }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
         "name": "SemplifiedCommand",
+        "children": []
+      },
+      {
+        "name": "Tools",
         "children": []
       }
     ]
