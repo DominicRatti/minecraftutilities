@@ -18,5 +18,17 @@ authors="Dominic, MCreator"
     side="BOTH"
 
 
+[[dependencies.minecraftutilities]]
+    modId="curios"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
+[[dependencies.minecraftutilities]]
+    modId="curios"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

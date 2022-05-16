@@ -1,4 +1,7 @@
 {
   "itemGroup.tabminecraft_utilities": "Minecraft Utilities",
-  "item.minecraftutilities.smelterpickaxe": "Smelterpickaxe"
+  "item.minecraftutilities.smelterpickaxe": "Smelterpickaxe",
+  "key.minecraftutilities.open_backpack_key": "Open Backpack Key",
+  "key.categories.minecraftutilities": "Minecraft Utilities Mod",
+  "item.minecraftutilities.back_pack": "Backpack Supremo"
 }

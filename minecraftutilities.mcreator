@@ -194,14 +194,132 @@
       "locked_code": false,
       "registry_name": "smelterpickaxerecipe",
       "path": "~/Tools"
+    },
+    {
+      "name": "BackPack",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_pack",
+      "path": "~/Backpack"
+    },
+    {
+      "name": "BackpackGui",
+      "type": "gui",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpack_gui",
+      "path": "~/Backpack"
+    },
+    {
+      "name": "OpenGui",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Backpack"
+    },
+    {
+      "name": "OpenBackpackKey",
+      "type": "keybind",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_backpack_key",
+      "path": "~/Backpack"
+    },
+    {
+      "name": "LoadItems",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "load_items",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Backpack"
+    },
+    {
+      "name": "SaveItems",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_items",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Backpack"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "itemSlot0",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "itemSlot0quantity",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "itemGroup.tabminecraft_utilities": "Minecraft Utilities",
-      "item.minecraftutilities.smelterpickaxe": "Smelterpickaxe"
+      "item.minecraftutilities.smelterpickaxe": "Smelterpickaxe",
+      "key.minecraftutilities.open_backpack_key": "Open Backpack Key",
+      "key.categories.minecraftutilities": "Minecraft Utilities Mod",
+      "item.minecraftutilities.back_pack": "Backpack Supremo"
     }
   },
   "foldersRoot": {
@@ -213,6 +331,10 @@
       },
       {
         "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Backpack",
         "children": []
       }
     ]
@@ -226,11 +348,18 @@
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "requiredMods": [],
-    "dependencies": [],
+    "requiredMods": [
+      "curios"
+    ],
+    "dependencies": [
+      "curios"
+    ],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "curios"
+    ],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.minecraftutilities",
     "lockBaseModFiles": false
   },
