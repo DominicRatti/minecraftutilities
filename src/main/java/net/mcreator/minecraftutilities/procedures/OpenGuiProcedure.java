@@ -7,7 +7,6 @@ import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.network.PacketBuffer;
-import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.container.INamedContainerProvider;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.entity.player.ServerPlayerEntity;
@@ -15,8 +14,8 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.minecraftutilities.item.BackPackItem;
 import net.mcreator.minecraftutilities.gui.BackpackGuiGui;
+import net.mcreator.minecraftutilities.MinecraftutilitiesModVariables;
 import net.mcreator.minecraftutilities.MinecraftutilitiesMod;
 
 import java.util.Map;
@@ -56,7 +55,8 @@ public class OpenGuiProcedure {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
-		if ((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(BackPackItem.block)) : false) {
+		if ((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).hadBackpack == true) {
 			{
 				Entity _ent = entity;
 				if (_ent instanceof ServerPlayerEntity) {

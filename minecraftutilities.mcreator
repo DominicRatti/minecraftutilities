@@ -1,146 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "SetCreative",
-      "type": "procedure",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "set_creative",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/SemplifiedCommand"
-    },
-    {
-      "name": "SetSurvival",
-      "type": "procedure",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "set_survival",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/SemplifiedCommand"
-    },
-    {
-      "name": "SetAdventure",
-      "type": "procedure",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "set_adventure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/SemplifiedCommand"
-    },
-    {
-      "name": "SetSpectator",
-      "type": "procedure",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "set_spectator",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/SemplifiedCommand"
-    },
-    {
-      "name": "Gma",
-      "type": "command",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gma",
-      "path": "~/SemplifiedCommand"
-    },
-    {
-      "name": "Gm2",
-      "type": "command",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gm_2",
-      "path": "~/SemplifiedCommand"
-    },
-    {
-      "name": "Gmsp",
-      "type": "command",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gmsp",
-      "path": "~/SemplifiedCommand"
-    },
-    {
-      "name": "Gm3",
-      "type": "command",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gm_3",
-      "path": "~/SemplifiedCommand"
-    },
-    {
-      "name": "Gm1",
-      "type": "command",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gm_1",
-      "path": "~/SemplifiedCommand"
-    },
-    {
-      "name": "Gmc",
-      "type": "command",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gmc",
-      "path": "~/SemplifiedCommand"
-    },
-    {
-      "name": "Gm0",
-      "type": "command",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gm_0",
-      "path": "~/SemplifiedCommand"
-    },
-    {
-      "name": "Gms",
-      "type": "command",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gms",
-      "path": "~/SemplifiedCommand"
-    },
-    {
       "name": "AutoSmelting",
       "type": "procedure",
       "sortid": 13,
@@ -308,6 +168,180 @@
         "dependencies": []
       },
       "path": "~/Backpack"
+    },
+    {
+      "name": "GetPackpack",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_packpack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Backpack"
+    },
+    {
+      "name": "DropBackpack",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_backpack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Backpack"
+    },
+    {
+      "name": "SetCreative",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_creative",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SemplifiedCommand"
+    },
+    {
+      "name": "SetSurvival",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_survival",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SemplifiedCommand"
+    },
+    {
+      "name": "SetSpectator",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_spectator",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SemplifiedCommand"
+    },
+    {
+      "name": "SetAdventure",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_adventure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SemplifiedCommand"
+    },
+    {
+      "name": "Gm0",
+      "type": "command",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_0",
+      "path": "~/SemplifiedCommand"
+    },
+    {
+      "name": "Gms",
+      "type": "command",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gms",
+      "path": "~/SemplifiedCommand"
+    },
+    {
+      "name": "Gm1",
+      "type": "command",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_1",
+      "path": "~/SemplifiedCommand"
+    },
+    {
+      "name": "Gmc",
+      "type": "command",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmc",
+      "path": "~/SemplifiedCommand"
+    },
+    {
+      "name": "Gmsp",
+      "type": "command",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmsp",
+      "path": "~/SemplifiedCommand"
+    },
+    {
+      "name": "Gm3",
+      "type": "command",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_3",
+      "path": "~/SemplifiedCommand"
+    },
+    {
+      "name": "Gm2",
+      "type": "command",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_2",
+      "path": "~/SemplifiedCommand"
+    },
+    {
+      "name": "Gma",
+      "type": "command",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gma",
+      "path": "~/SemplifiedCommand"
     }
   ],
   "variable_elements": [
@@ -1786,6 +1820,12 @@
       "type": "itemstack",
       "scope": "player_persistent",
       "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "hadBackpack",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [],

@@ -28,7 +28,6 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
-import net.mcreator.minecraftutilities.procedures.SetCreativeProcedure;
 import net.mcreator.minecraftutilities.procedures.SaveItemsProcedure;
 import net.mcreator.minecraftutilities.procedures.LoadItemsProcedure;
 import net.mcreator.minecraftutilities.MinecraftutilitiesModElements;
@@ -3325,12 +3324,6 @@ public class BackpackGuiGui extends MinecraftutilitiesModElements.ModElement {
 			}));
 			this.customSlots.put(160, this.addSlot(new SlotItemHandler(internal, 160, 293, 113) {
 				@Override
-				public void onSlotChanged() {
-					super.onSlotChanged();
-					GuiContainerMod.this.slotChanged(160, 0, 0);
-				}
-
-				@Override
 				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
 					ItemStack retval = super.onTake(entity, stack);
 					GuiContainerMod.this.slotChanged(160, 1, 0);
@@ -4104,6 +4097,24 @@ public class BackpackGuiGui extends MinecraftutilitiesModElements.ModElement {
 				}
 			}));
 			this.customSlots.put(199, this.addSlot(new SlotItemHandler(internal, 199, 131, 149) {
+				@Override
+				public void onSlotChanged() {
+					super.onSlotChanged();
+					GuiContainerMod.this.slotChanged(199, 0, 0);
+				}
+
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(199, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(199, 2, b.getCount() - a.getCount());
+				}
 			}));
 			this.customSlots.put(200, this.addSlot(new SlotItemHandler(internal, 200, 149, 149) {
 				@Override
@@ -9283,11 +9294,6 @@ public class BackpackGuiGui extends MinecraftutilitiesModElements.ModElement {
 					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
 							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
-		if (slotID == 160 && changeType == 0) {
-
-			SetCreativeProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-		}
 		if (slotID == 160 && changeType == 1) {
 
 			SaveItemsProcedure
@@ -9436,8 +9442,9 @@ public class BackpackGuiGui extends MinecraftutilitiesModElements.ModElement {
 		}
 		if (slotID == 168 && changeType == 0) {
 
-			SetCreativeProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			SaveItemsProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 		if (slotID == 168 && changeType == 1) {
 
@@ -9587,8 +9594,9 @@ public class BackpackGuiGui extends MinecraftutilitiesModElements.ModElement {
 		}
 		if (slotID == 176 && changeType == 0) {
 
-			SetCreativeProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			SaveItemsProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 		if (slotID == 176 && changeType == 1) {
 
@@ -9630,8 +9638,9 @@ public class BackpackGuiGui extends MinecraftutilitiesModElements.ModElement {
 		}
 		if (slotID == 178 && changeType == 1) {
 
-			SetCreativeProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			SaveItemsProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 		if (slotID == 178 && changeType == 2) {
 			int amount = meta;
@@ -9832,8 +9841,9 @@ public class BackpackGuiGui extends MinecraftutilitiesModElements.ModElement {
 		}
 		if (slotID == 189 && changeType == 0) {
 
-			SetCreativeProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			SaveItemsProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 		if (slotID == 189 && changeType == 1) {
 
@@ -9983,8 +9993,9 @@ public class BackpackGuiGui extends MinecraftutilitiesModElements.ModElement {
 		}
 		if (slotID == 197 && changeType == 0) {
 
-			SetCreativeProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			SaveItemsProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 		if (slotID == 197 && changeType == 1) {
 
@@ -10012,6 +10023,25 @@ public class BackpackGuiGui extends MinecraftutilitiesModElements.ModElement {
 							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 		if (slotID == 198 && changeType == 2) {
+			int amount = meta;
+
+			SaveItemsProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+		}
+		if (slotID == 199 && changeType == 0) {
+
+			SaveItemsProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+		}
+		if (slotID == 199 && changeType == 1) {
+
+			SaveItemsProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+		}
+		if (slotID == 199 && changeType == 2) {
 			int amount = meta;
 
 			SaveItemsProcedure
@@ -10400,8 +10430,9 @@ public class BackpackGuiGui extends MinecraftutilitiesModElements.ModElement {
 		}
 		if (slotID == 220 && changeType == 0) {
 
-			SetCreativeProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			SaveItemsProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 		if (slotID == 220 && changeType == 1) {
 
@@ -10614,8 +10645,9 @@ public class BackpackGuiGui extends MinecraftutilitiesModElements.ModElement {
 		}
 		if (slotID == 231 && changeType == 1) {
 
-			SetCreativeProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			SaveItemsProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 		if (slotID == 231 && changeType == 2) {
 			int amount = meta;

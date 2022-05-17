@@ -21,7 +21,7 @@ public class SetCreativeProcedure {
 		if (entity instanceof PlayerEntity)
 			((PlayerEntity) entity).setGameType(GameType.CREATIVE);
 		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("Ora sei in Cretiva!"), (false));
+			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("Ora sei in Creativa!"), (false));
 		}
 	}
 }

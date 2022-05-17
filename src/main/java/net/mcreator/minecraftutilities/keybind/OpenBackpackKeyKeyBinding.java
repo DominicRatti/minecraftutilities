@@ -32,7 +32,6 @@ import java.util.AbstractMap;
 public class OpenBackpackKeyKeyBinding extends MinecraftutilitiesModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	private KeyBinding keys;
-	private long lastpress = 0;
 
 	public OpenBackpackKeyKeyBinding(MinecraftutilitiesModElements instance) {
 		super(instance, 20);
@@ -54,11 +53,8 @@ public class OpenBackpackKeyKeyBinding extends MinecraftutilitiesModElements.Mod
 		if (Minecraft.getInstance().currentScreen == null) {
 			if (event.getKey() == keys.getKey().getKeyCode()) {
 				if (event.getAction() == GLFW.GLFW_PRESS) {
-					lastpress = System.currentTimeMillis();
-				} else if (event.getAction() == GLFW.GLFW_RELEASE) {
-					int dt = (int) (System.currentTimeMillis() - lastpress);
-					MinecraftutilitiesMod.PACKET_HANDLER.sendToServer(new KeyBindingPressedMessage(1, dt));
-					pressAction(Minecraft.getInstance().player, 1, dt);
+					MinecraftutilitiesMod.PACKET_HANDLER.sendToServer(new KeyBindingPressedMessage(0, 0));
+					pressAction(Minecraft.getInstance().player, 0, 0);
 				}
 			}
 		}
@@ -99,7 +95,7 @@ public class OpenBackpackKeyKeyBinding extends MinecraftutilitiesModElements.Mod
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-		if (type == 1) {
+		if (type == 0) {
 
 			OpenGuiProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),

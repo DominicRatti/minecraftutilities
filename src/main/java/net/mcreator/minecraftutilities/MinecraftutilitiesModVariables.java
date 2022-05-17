@@ -318,6 +318,7 @@ public class MinecraftutilitiesModVariables {
 			nbt.put("itemSlot243", instance.itemSlot243.write(new CompoundNBT()));
 			nbt.put("itemSlot244", instance.itemSlot244.write(new CompoundNBT()));
 			nbt.put("itemSlot245", instance.itemSlot245.write(new CompoundNBT()));
+			nbt.putBoolean("hadBackpack", instance.hadBackpack);
 			return nbt;
 		}
 
@@ -570,6 +571,7 @@ public class MinecraftutilitiesModVariables {
 			instance.itemSlot243 = ItemStack.read(nbt.getCompound("itemSlot243"));
 			instance.itemSlot244 = ItemStack.read(nbt.getCompound("itemSlot244"));
 			instance.itemSlot245 = ItemStack.read(nbt.getCompound("itemSlot245"));
+			instance.hadBackpack = nbt.getBoolean("hadBackpack");
 		}
 	}
 
@@ -820,6 +822,7 @@ public class MinecraftutilitiesModVariables {
 		public ItemStack itemSlot243 = ItemStack.EMPTY;
 		public ItemStack itemSlot244 = ItemStack.EMPTY;
 		public ItemStack itemSlot245 = ItemStack.EMPTY;
+		public boolean hadBackpack = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
@@ -1101,6 +1104,7 @@ public class MinecraftutilitiesModVariables {
 		clone.itemSlot244 = original.itemSlot244;
 		clone.itemSlot245 = original.itemSlot245;
 		if (!event.isWasDeath()) {
+			clone.hadBackpack = original.hadBackpack;
 		}
 	}
 
@@ -1372,6 +1376,7 @@ public class MinecraftutilitiesModVariables {
 					variables.itemSlot243 = message.data.itemSlot243;
 					variables.itemSlot244 = message.data.itemSlot244;
 					variables.itemSlot245 = message.data.itemSlot245;
+					variables.hadBackpack = message.data.hadBackpack;
 				}
 			});
 			context.setPacketHandled(true);

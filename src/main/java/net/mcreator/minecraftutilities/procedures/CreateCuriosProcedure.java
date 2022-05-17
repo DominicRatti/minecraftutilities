@@ -1,8 +1,12 @@
 package net.mcreator.minecraftutilities.procedures;
 
 import net.minecraftforge.fml.loading.FMLPaths;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 import java.util.Map;
+import java.util.Collections;
 
 import java.io.IOException;
 import java.io.FileWriter;
@@ -10,10 +14,17 @@ import java.io.File;
 import java.io.BufferedWriter;
 
 public class CreateCuriosProcedure {
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+	private static class GlobalTrigger {
+		@SubscribeEvent
+		public static void init(FMLCommonSetupEvent event) {
+			executeProcedure(Collections.emptyMap());
+		}
+	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		File file = new File("");
-		file = (File) new File((FMLPaths.GAMEDIR.get().toString() + "/defaultconfigs/"), File.separator + "curios-server.toml");
+		file = (File) new File((FMLPaths.GAMEDIR.get().toString() + "\\defaultconfigs\\"), File.separator + "curios-server.toml");
 		if (!file.exists()) {
 			try {
 				file.getParentFile().mkdirs();

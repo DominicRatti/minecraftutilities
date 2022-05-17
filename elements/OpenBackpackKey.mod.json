@@ -5,7 +5,7 @@
     "triggerKey": "B",
     "keyBindingName": "Open Backpack Key",
     "keyBindingCategoryKey": "minecraftutilities",
-    "onKeyReleased": {
+    "onKeyPressed": {
       "name": "OpenGui"
     }
   }

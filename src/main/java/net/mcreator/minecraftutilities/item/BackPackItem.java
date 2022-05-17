@@ -35,10 +35,13 @@ import net.minecraft.inventory.container.Container;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.Entity;
 import net.minecraft.client.Minecraft;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.minecraftutilities.procedures.OpenGuiProcedure;
+import net.mcreator.minecraftutilities.procedures.GetPackpackProcedure;
+import net.mcreator.minecraftutilities.procedures.DropBackpackProcedure;
 import net.mcreator.minecraftutilities.itemgroup.MinecraftUtilitiesItemGroup;
 import net.mcreator.minecraftutilities.gui.BackpackGuiGuiWindow;
 import net.mcreator.minecraftutilities.gui.BackpackGuiGui;
@@ -157,6 +160,40 @@ public class BackPackItem extends MinecraftutilitiesModElements.ModElement {
 							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return retval;
+		}
+
+		@Override
+		public void onCreated(ItemStack itemstack, World world, PlayerEntity entity) {
+			super.onCreated(itemstack, world, entity);
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+
+			GetPackpackProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+
+			GetPackpackProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+		}
+
+		@Override
+		public boolean onDroppedByPlayer(ItemStack itemstack, PlayerEntity entity) {
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+			World world = entity.world;
+
+			DropBackpackProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			return true;
 		}
 
 		@Override

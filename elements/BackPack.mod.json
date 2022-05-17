@@ -35,6 +35,15 @@
     "onRightClickedOnBlock": {
       "name": "OpenGui"
     },
+    "onCrafted": {
+      "name": "GetPackpack"
+    },
+    "onItemInInventoryTick": {
+      "name": "GetPackpack"
+    },
+    "onDroppedByPlayer": {
+      "name": "DropBackpack"
+    },
     "hasDispenseBehavior": false,
     "isFood": false,
     "nutritionalValue": 4,

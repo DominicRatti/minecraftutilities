@@ -3699,9 +3699,6 @@
           "id": 160,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": false,
-          "onSlotChanged": {
-            "name": "SetCreative"
-          },
           "onTakenFromSlot": {
             "name": "SaveItems"
           },
@@ -3884,7 +3881,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": false,
           "onSlotChanged": {
-            "name": "SetCreative"
+            "name": "SaveItems"
           },
           "onTakenFromSlot": {
             "name": "SaveItems"
@@ -4068,7 +4065,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": false,
           "onSlotChanged": {
-            "name": "SetCreative"
+            "name": "SaveItems"
           },
           "onTakenFromSlot": {
             "name": "SaveItems"
@@ -4117,7 +4114,7 @@
             "name": "SaveItems"
           },
           "onTakenFromSlot": {
-            "name": "SetCreative"
+            "name": "SaveItems"
           },
           "onStackTransfer": {
             "name": "SaveItems"
@@ -4367,7 +4364,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": false,
           "onSlotChanged": {
-            "name": "SetCreative"
+            "name": "SaveItems"
           },
           "onTakenFromSlot": {
             "name": "SaveItems"
@@ -4551,7 +4548,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": false,
           "onSlotChanged": {
-            "name": "SetCreative"
+            "name": "SaveItems"
           },
           "onTakenFromSlot": {
             "name": "SaveItems"
@@ -4596,6 +4593,15 @@
           "id": 199,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "SaveItems"
+          },
+          "onTakenFromSlot": {
+            "name": "SaveItems"
+          },
+          "onStackTransfer": {
+            "name": "SaveItems"
+          },
           "name": "Slot #199",
           "x": 123,
           "y": 143
@@ -5071,7 +5077,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": false,
           "onSlotChanged": {
-            "name": "SetCreative"
+            "name": "SaveItems"
           },
           "onTakenFromSlot": {
             "name": "SaveItems"
@@ -5327,7 +5333,7 @@
             "name": "SaveItems"
           },
           "onTakenFromSlot": {
-            "name": "SetCreative"
+            "name": "SaveItems"
           },
           "onStackTransfer": {
             "name": "SaveItems"
