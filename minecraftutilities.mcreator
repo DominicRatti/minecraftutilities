@@ -342,15 +342,6 @@
       "locked_code": false,
       "registry_name": "gma",
       "path": "~/SemplifiedCommand"
-    },
-    {
-      "name": "AddCount",
-      "type": "function",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "add_count",
-      "path": "~/Backpack"
     }
   ],
   "variable_elements": [

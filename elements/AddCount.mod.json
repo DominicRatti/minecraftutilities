@@ -1,9 +1,0 @@
-{
-  "_fv": 28,
-  "_type": "function",
-  "definition": {
-    "code": "# Enter the function code here",
-    "name": "add_count",
-    "namespace": "mod"
-  }
-}
