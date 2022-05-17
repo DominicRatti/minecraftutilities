@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minecraftutilities:block/gold_barrel"
+    },
+    "facing=east": {
+      "model": "minecraftutilities:block/gold_barrel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minecraftutilities:block/gold_barrel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minecraftutilities:block/gold_barrel",
+      "y": 270
+    }
+  }
+}

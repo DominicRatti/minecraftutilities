@@ -194,6 +194,24 @@
       "locked_code": false,
       "registry_name": "gma",
       "path": "~/SemplifiedCommand"
+    },
+    {
+      "name": "SuperChest",
+      "type": "gui",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_chest",
+      "path": "~/Chests"
+    },
+    {
+      "name": "GoldBarrel",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_barrel",
+      "path": "~/Chests"
     }
   ],
   "variable_elements": [],
@@ -204,6 +222,7 @@
       "item.minecraftutilities.smelterpickaxe": "Smelterpickaxe",
       "key.categories.minecraftutilities": "Minecraft Utilities Mod",
       "item.minecraftutilities.back_pack": "Backpack Supremo",
+      "block.minecraftutilities.gold_barrel": "Gold Barrel",
       "curios.identifier.back": "Backpack"
     }
   },
