@@ -56,7 +56,7 @@ import io.netty.buffer.Unpooled;
 
 @MinecraftutilitiesModElements.ModElement.Tag
 public class BackPackItem extends MinecraftutilitiesModElements.ModElement {
-	@ObjectHolder("minecraftutilities:back_pack")
+	@ObjectHolder("minecraftutilities:backpack")
 	public static final Item block = null;
 
 	public BackPackItem(MinecraftutilitiesModElements instance) {
@@ -82,7 +82,7 @@ public class BackPackItem extends MinecraftutilitiesModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(MinecraftUtilitiesItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
-			setRegistryName("back_pack");
+			setRegistryName("backpack");
 		}
 
 		@Override
