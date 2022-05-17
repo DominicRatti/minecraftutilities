@@ -14,23 +14,20 @@ import net.minecraft.entity.Entity;
 import net.mcreator.minecraftutilities.MinecraftutilitiesModVariables;
 import net.mcreator.minecraftutilities.MinecraftutilitiesMod;
 
-import java.util.stream.Stream;
 import java.util.function.Supplier;
 import java.util.Map;
-import java.util.HashMap;
-import java.util.AbstractMap;
 
-public class SaveItemsProcedure {
+public class Saveitem3Procedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				MinecraftutilitiesMod.LOGGER.warn("Failed to load dependency world for procedure SaveItems!");
+				MinecraftutilitiesMod.LOGGER.warn("Failed to load dependency world for procedure Saveitem3!");
 			return;
 		}
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				MinecraftutilitiesMod.LOGGER.warn("Failed to load dependency entity for procedure SaveItems!");
+				MinecraftutilitiesMod.LOGGER.warn("Failed to load dependency entity for procedure Saveitem3!");
 			return;
 		}
 		IWorld world = (IWorld) dependencies.get("world");
@@ -71,14 +68,14 @@ public class SaveItemsProcedure {
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack((int) (0)));
+					}.getItemStack((int) (20)));
 					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.itemSlot0 = _setval;
+						capability.itemSlot20 = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
 				(((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot0)).setCount((int) (new Object() {
+						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot20)).setCount((int) (new Object() {
 							public int getAmount(int sltid) {
 								if (entity instanceof ServerPlayerEntity) {
 									Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -93,7 +90,7 @@ public class SaveItemsProcedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (0))));
+						}.getAmount((int) (20))));
 				{
 					ItemStack _setval = (new Object() {
 						public ItemStack getItemStack(int sltid) {
@@ -109,14 +106,14 @@ public class SaveItemsProcedure {
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack((int) (1)));
+					}.getItemStack((int) (21)));
 					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.itemSlot1 = _setval;
+						capability.itemSlot21 = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
 				(((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot1)).setCount((int) (new Object() {
+						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot21)).setCount((int) (new Object() {
 							public int getAmount(int sltid) {
 								if (entity instanceof ServerPlayerEntity) {
 									Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -131,7 +128,7 @@ public class SaveItemsProcedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (1))));
+						}.getAmount((int) (21))));
 				{
 					ItemStack _setval = (new Object() {
 						public ItemStack getItemStack(int sltid) {
@@ -147,14 +144,14 @@ public class SaveItemsProcedure {
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack((int) (2)));
+					}.getItemStack((int) (22)));
 					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.itemSlot2 = _setval;
+						capability.itemSlot22 = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
 				(((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot2)).setCount((int) (new Object() {
+						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot22)).setCount((int) (new Object() {
 							public int getAmount(int sltid) {
 								if (entity instanceof ServerPlayerEntity) {
 									Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -169,7 +166,7 @@ public class SaveItemsProcedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (2))));
+						}.getAmount((int) (22))));
 				{
 					ItemStack _setval = (new Object() {
 						public ItemStack getItemStack(int sltid) {
@@ -185,14 +182,14 @@ public class SaveItemsProcedure {
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack((int) (3)));
+					}.getItemStack((int) (23)));
 					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.itemSlot3 = _setval;
+						capability.itemSlot23 = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
 				(((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot3)).setCount((int) (new Object() {
+						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot23)).setCount((int) (new Object() {
 							public int getAmount(int sltid) {
 								if (entity instanceof ServerPlayerEntity) {
 									Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -207,7 +204,7 @@ public class SaveItemsProcedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (3))));
+						}.getAmount((int) (23))));
 				{
 					ItemStack _setval = (new Object() {
 						public ItemStack getItemStack(int sltid) {
@@ -223,14 +220,14 @@ public class SaveItemsProcedure {
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack((int) (4)));
+					}.getItemStack((int) (24)));
 					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.itemSlot4 = _setval;
+						capability.itemSlot24 = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
 				(((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot4)).setCount((int) (new Object() {
+						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot24)).setCount((int) (new Object() {
 							public int getAmount(int sltid) {
 								if (entity instanceof ServerPlayerEntity) {
 									Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -245,7 +242,7 @@ public class SaveItemsProcedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (4))));
+						}.getAmount((int) (24))));
 				{
 					ItemStack _setval = (new Object() {
 						public ItemStack getItemStack(int sltid) {
@@ -261,14 +258,14 @@ public class SaveItemsProcedure {
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack((int) (5)));
+					}.getItemStack((int) (25)));
 					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.itemSlot5 = _setval;
+						capability.itemSlot25 = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
 				(((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot5)).setCount((int) (new Object() {
+						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot25)).setCount((int) (new Object() {
 							public int getAmount(int sltid) {
 								if (entity instanceof ServerPlayerEntity) {
 									Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -283,7 +280,7 @@ public class SaveItemsProcedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (5))));
+						}.getAmount((int) (25))));
 				{
 					ItemStack _setval = (new Object() {
 						public ItemStack getItemStack(int sltid) {
@@ -299,14 +296,14 @@ public class SaveItemsProcedure {
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack((int) (6)));
+					}.getItemStack((int) (26)));
 					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.itemSlot6 = _setval;
+						capability.itemSlot26 = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
 				(((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot6)).setCount((int) (new Object() {
+						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot26)).setCount((int) (new Object() {
 							public int getAmount(int sltid) {
 								if (entity instanceof ServerPlayerEntity) {
 									Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -321,7 +318,7 @@ public class SaveItemsProcedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (6))));
+						}.getAmount((int) (26))));
 				{
 					ItemStack _setval = (new Object() {
 						public ItemStack getItemStack(int sltid) {
@@ -337,14 +334,14 @@ public class SaveItemsProcedure {
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack((int) (7)));
+					}.getItemStack((int) (27)));
 					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.itemSlot7 = _setval;
+						capability.itemSlot27 = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
 				(((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot7)).setCount((int) (new Object() {
+						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot27)).setCount((int) (new Object() {
 							public int getAmount(int sltid) {
 								if (entity instanceof ServerPlayerEntity) {
 									Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -359,7 +356,7 @@ public class SaveItemsProcedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (7))));
+						}.getAmount((int) (27))));
 				{
 					ItemStack _setval = (new Object() {
 						public ItemStack getItemStack(int sltid) {
@@ -375,14 +372,14 @@ public class SaveItemsProcedure {
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack((int) (8)));
+					}.getItemStack((int) (28)));
 					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.itemSlot8 = _setval;
+						capability.itemSlot28 = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
 				(((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot8)).setCount((int) (new Object() {
+						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot28)).setCount((int) (new Object() {
 							public int getAmount(int sltid) {
 								if (entity instanceof ServerPlayerEntity) {
 									Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -397,7 +394,7 @@ public class SaveItemsProcedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (8))));
+						}.getAmount((int) (28))));
 				{
 					ItemStack _setval = (new Object() {
 						public ItemStack getItemStack(int sltid) {
@@ -413,14 +410,14 @@ public class SaveItemsProcedure {
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack((int) (9)));
+					}.getItemStack((int) (29)));
 					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.itemSlot9 = _setval;
+						capability.itemSlot29 = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
 				(((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot9)).setCount((int) (new Object() {
+						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot29)).setCount((int) (new Object() {
 							public int getAmount(int sltid) {
 								if (entity instanceof ServerPlayerEntity) {
 									Container _current = ((ServerPlayerEntity) entity).openContainer;
@@ -435,12 +432,9 @@ public class SaveItemsProcedure {
 								}
 								return 0;
 							}
-						}.getAmount((int) (9))));
+						}.getAmount((int) (29))));
 				MinecraftForge.EVENT_BUS.unregister(this);
 			}
 		}.start(world, (int) 1);
-
-		Saveitems2Procedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
-				.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 	}
 }
