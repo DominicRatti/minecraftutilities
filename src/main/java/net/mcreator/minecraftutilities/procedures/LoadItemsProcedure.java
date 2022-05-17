@@ -67,8 +67,78 @@ public class LoadItemsProcedure {
 						}
 					}
 				}
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							ItemStack _setstack = ((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot1);
+							_setstack.setCount((int) ((((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot1)).getCount()));
+							((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							ItemStack _setstack = ((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot2);
+							_setstack.setCount((int) ((((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot2)).getCount()));
+							((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							ItemStack _setstack = ((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot3);
+							_setstack.setCount((int) ((((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot3)).getCount()));
+							((Slot) ((Map) invobj).get((int) (3))).putStack(_setstack);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							ItemStack _setstack = ((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot4);
+							_setstack.setCount((int) ((((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot4)).getCount()));
+							((Slot) ((Map) invobj).get((int) (4))).putStack(_setstack);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							ItemStack _setstack = ((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot5);
+							_setstack.setCount((int) ((((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot5)).getCount()));
+							((Slot) ((Map) invobj).get((int) (5))).putStack(_setstack);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
 				MinecraftForge.EVENT_BUS.unregister(this);
 			}
-		}.start(world, (int) 3);
+		}.start(world, (int) 1);
 	}
 }

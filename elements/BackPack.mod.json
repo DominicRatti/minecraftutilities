@@ -26,15 +26,9 @@
     "damageVsEntity": 0.0,
     "specialInfo": [],
     "hasGlow": false,
-    "guiBoundTo": "BackpackGui",
+    "guiBoundTo": "<NONE>",
     "inventorySize": 256,
     "inventoryStackSize": 64,
-    "onRightClickedInAir": {
-      "name": "OpenGui"
-    },
-    "onRightClickedOnBlock": {
-      "name": "OpenGui"
-    },
     "onCrafted": {
       "name": "GetPackpack"
     },
