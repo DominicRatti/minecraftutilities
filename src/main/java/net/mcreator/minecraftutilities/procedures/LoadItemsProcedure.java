@@ -61,7 +61,7 @@ public class LoadItemsProcedure {
 							ItemStack _setstack = ((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot0);
 							_setstack.setCount((int) ((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot0quantity));
+									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlotquantity0));
 							((Slot) ((Map) invobj).get((int) (0))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
@@ -75,7 +75,7 @@ public class LoadItemsProcedure {
 							ItemStack _setstack = ((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot1);
 							_setstack.setCount((int) ((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot1quantity));
+									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlotquantity1));
 							((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}

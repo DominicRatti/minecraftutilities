@@ -512,7 +512,7 @@ public class SaveItemsProcedure {
 						}
 					}.getAmount((int) (0)));
 					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.itemSlot0quantity = _setval;
+						capability.itemSlotquantity0 = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
@@ -534,7 +534,7 @@ public class SaveItemsProcedure {
 						}
 					}.getAmount((int) (1)));
 					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.itemSlot1quantity = _setval;
+						capability.itemSlotquantity1 = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}

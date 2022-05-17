@@ -361,7 +361,7 @@
       "value": "ItemStack.EMPTY"
     },
     {
-      "name": "itemSlot0quantity",
+      "name": "itemSlotquantity0",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
@@ -373,7 +373,7 @@
       "value": "ItemStack.EMPTY"
     },
     {
-      "name": "itemSlot1quantity",
+      "name": "itemSlotquantity1",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
@@ -1555,6 +1555,1110 @@
       "value": "ItemStack.EMPTY"
     },
     {
+      "name": "hadBackpack",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "itemSlotquantity2",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity3",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity4",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity5",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity6",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity7",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity8",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity9",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity10",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity11",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity12",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity13",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity14",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity15",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity16",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity17",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity18",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity19",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity20",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity21",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity22",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity23",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity24",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity25",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity26",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity27",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity28",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity29",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity30",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity31",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity32",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity33",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity34",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity35",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity36",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity37",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity38",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity39",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity40",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity41",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity42",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity43",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity44",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity45",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity46",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity47",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity48",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity49",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity50",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity51",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity52",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity53",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity54",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity55",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity56",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity57",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity58",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity59",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity60",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity61",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity62",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity63",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity64",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity65",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity66",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity67",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity68",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity69",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity70",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity71",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity72",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity73",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity74",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity75",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity76",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity77",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity78",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity79",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity80",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity81",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity82",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity83",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity84",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity85",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity86",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity87",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity88",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity89",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity90",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity91",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity92",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity93",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity94",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity95",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity96",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity97",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity98",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity99",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity100",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity101",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity102",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity103",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity104",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity105",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity106",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity107",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity108",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity109",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity110",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity111",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity112",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity113",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity114",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity115",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity116",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity117",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity118",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity119",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity120",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity121",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity122",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity123",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity124",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity125",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity126",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity127",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity128",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity129",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity130",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity131",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity132",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity133",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity134",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity135",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity136",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity137",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity138",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity139",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity140",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity141",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity142",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity143",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity144",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity145",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity146",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity147",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity148",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity149",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity150",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity151",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity152",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity153",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity154",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity155",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity156",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity157",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity158",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity159",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity160",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity161",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity162",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity163",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity164",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity165",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity166",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity167",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity168",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity169",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity170",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity171",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity172",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity173",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity174",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity175",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity176",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity177",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity178",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity179",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity180",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity181",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity182",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity183",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "itemSlotquantity184",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
       "name": "itemSlot200",
       "type": "itemstack",
       "scope": "player_persistent",
@@ -1651,190 +2755,178 @@
       "value": "ItemStack.EMPTY"
     },
     {
-      "name": "itemSlot216",
-      "type": "itemstack",
+      "name": "itemSlotquantity185",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot217",
-      "type": "itemstack",
+      "name": "itemSlotquantity186",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot219",
-      "type": "itemstack",
+      "name": "itemSlotquantity187",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot220",
-      "type": "itemstack",
+      "name": "itemSlotquantity188",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot221",
-      "type": "itemstack",
+      "name": "itemSlotquantity189",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot222",
-      "type": "itemstack",
+      "name": "itemSlotquantity190",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot223",
-      "type": "itemstack",
+      "name": "itemSlotquantity191",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot218",
-      "type": "itemstack",
+      "name": "itemSlotquantity192",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot224",
-      "type": "itemstack",
+      "name": "itemSlotquantity193",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot225",
-      "type": "itemstack",
+      "name": "itemSlotquantity194",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot226",
-      "type": "itemstack",
+      "name": "itemSlotquantity195",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot227",
-      "type": "itemstack",
+      "name": "itemSlotquantity198",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot228",
-      "type": "itemstack",
+      "name": "itemSlotquantity199",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot229",
-      "type": "itemstack",
+      "name": "itemSlotquantity200",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot230",
-      "type": "itemstack",
+      "name": "itemSlotquantity201",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot231",
-      "type": "itemstack",
+      "name": "itemSlotquantity202",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot232",
-      "type": "itemstack",
+      "name": "itemSlotquantity203",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot233",
-      "type": "itemstack",
+      "name": "itemSlotquantity204",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot234",
-      "type": "itemstack",
+      "name": "itemSlotquantity205",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot235",
-      "type": "itemstack",
+      "name": "itemSlotquantity206",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot236",
-      "type": "itemstack",
+      "name": "itemSlotquantity207",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot237",
-      "type": "itemstack",
+      "name": "itemSlotquantity208",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot238",
-      "type": "itemstack",
+      "name": "itemSlotquantity209",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot239",
-      "type": "itemstack",
+      "name": "itemSlotquantity210",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot241",
-      "type": "itemstack",
+      "name": "itemSlotquantity211",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot240",
-      "type": "itemstack",
+      "name": "itemSlotquantity212",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot242",
-      "type": "itemstack",
+      "name": "itemSlotquantity213",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot243",
-      "type": "itemstack",
+      "name": "itemSlotquantity214",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
+      "value": "0"
     },
     {
-      "name": "itemSlot244",
-      "type": "itemstack",
+      "name": "itemSlotquantity215",
+      "type": "number",
       "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
-    },
-    {
-      "name": "itemSlot245",
-      "type": "itemstack",
-      "scope": "player_persistent",
-      "value": "ItemStack.EMPTY"
-    },
-    {
-      "name": "hadBackpack",
-      "type": "logic",
-      "scope": "player_lifetime",
-      "value": "false"
+      "value": "0"
     }
   ],
   "sound_elements": [],
