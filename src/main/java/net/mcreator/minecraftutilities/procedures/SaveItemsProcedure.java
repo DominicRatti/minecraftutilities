@@ -141,6 +141,6 @@ public class SaveItemsProcedure {
 				}
 				MinecraftForge.EVENT_BUS.unregister(this);
 			}
-		}.start(world, (int) 1);
+		}.start(world, (int) 0);
 	}
 }

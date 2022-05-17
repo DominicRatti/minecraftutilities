@@ -201,7 +201,7 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "back_pack",
+      "registry_name": "backpack",
       "path": "~/Backpack"
     },
     {
@@ -294,6 +294,18 @@
             "type": "world"
           }
         ]
+      },
+      "path": "~/Backpack"
+    },
+    {
+      "name": "CreateCurios",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_curios",
+      "metadata": {
+        "dependencies": []
       },
       "path": "~/Backpack"
     }
@@ -445,7 +457,8 @@
       "item.minecraftutilities.smelterpickaxe": "Smelterpickaxe",
       "key.minecraftutilities.open_backpack_key": "Open Backpack Key",
       "key.categories.minecraftutilities": "Minecraft Utilities Mod",
-      "item.minecraftutilities.back_pack": "Backpack Supremo"
+      "item.minecraftutilities.back_pack": "Backpack Supremo",
+      "curios.identifier.back": "Backpack"
     }
   },
   "foldersRoot": {
