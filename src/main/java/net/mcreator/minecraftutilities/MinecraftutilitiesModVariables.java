@@ -501,6 +501,7 @@ public class MinecraftutilitiesModVariables {
 			nbt.putDouble("itemSlotquantity213", instance.itemSlotquantity213);
 			nbt.putDouble("itemSlotquantity214", instance.itemSlotquantity214);
 			nbt.putDouble("itemSlotquantity215", instance.itemSlotquantity215);
+			nbt.putDouble("currentSlot", instance.currentSlot);
 			return nbt;
 		}
 
@@ -936,6 +937,7 @@ public class MinecraftutilitiesModVariables {
 			instance.itemSlotquantity213 = nbt.getDouble("itemSlotquantity213");
 			instance.itemSlotquantity214 = nbt.getDouble("itemSlotquantity214");
 			instance.itemSlotquantity215 = nbt.getDouble("itemSlotquantity215");
+			instance.currentSlot = nbt.getDouble("currentSlot");
 		}
 	}
 
@@ -1168,7 +1170,7 @@ public class MinecraftutilitiesModVariables {
 		public double itemSlotquantity26 = 0;
 		public double itemSlotquantity27 = 0;
 		public double itemSlotquantity28 = 0;
-		public double itemSlotquantity29 = 0;
+		public double itemSlotquantity29 = 0.0;
 		public double itemSlotquantity30 = 0;
 		public double itemSlotquantity31 = 0;
 		public double itemSlotquantity32 = 0;
@@ -1362,13 +1364,14 @@ public class MinecraftutilitiesModVariables {
 		public double itemSlotquantity206 = 0;
 		public double itemSlotquantity207 = 0;
 		public double itemSlotquantity208 = 0;
-		public double itemSlotquantity209 = 0;
+		public double itemSlotquantity209 = 0.0;
 		public double itemSlotquantity210 = 0;
 		public double itemSlotquantity211 = 0;
 		public double itemSlotquantity212 = 0;
 		public double itemSlotquantity213 = 0;
 		public double itemSlotquantity214 = 0;
 		public double itemSlotquantity215 = 0;
+		public double currentSlot = -1.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
@@ -1831,6 +1834,7 @@ public class MinecraftutilitiesModVariables {
 		clone.itemSlotquantity213 = original.itemSlotquantity213;
 		clone.itemSlotquantity214 = original.itemSlotquantity214;
 		clone.itemSlotquantity215 = original.itemSlotquantity215;
+		clone.currentSlot = original.currentSlot;
 		if (!event.isWasDeath()) {
 			clone.hadBackpack = original.hadBackpack;
 		}
@@ -2287,6 +2291,7 @@ public class MinecraftutilitiesModVariables {
 					variables.itemSlotquantity213 = message.data.itemSlotquantity213;
 					variables.itemSlotquantity214 = message.data.itemSlotquantity214;
 					variables.itemSlotquantity215 = message.data.itemSlotquantity215;
+					variables.currentSlot = message.data.currentSlot;
 				}
 			});
 			context.setPacketHandled(true);

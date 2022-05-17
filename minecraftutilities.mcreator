@@ -1717,7 +1717,7 @@
       "name": "itemSlotquantity29",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "0.0"
     },
     {
       "name": "itemSlotquantity30",
@@ -2881,7 +2881,7 @@
       "name": "itemSlotquantity209",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "0.0"
     },
     {
       "name": "itemSlotquantity210",
@@ -2918,6 +2918,12 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "currentSlot",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "-1.0"
     }
   ],
   "sound_elements": [],

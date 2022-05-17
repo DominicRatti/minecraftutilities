@@ -74,6 +74,23 @@ public class SaveItemsProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
+				(((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot0)).setCount((int) (new Object() {
+							public int getAmount(int sltid) {
+								if (entity instanceof ServerPlayerEntity) {
+									Container _current = ((ServerPlayerEntity) entity).openContainer;
+									if (_current instanceof Supplier) {
+										Object invobj = ((Supplier) _current).get();
+										if (invobj instanceof Map) {
+											ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+											if (stack != null)
+												return stack.getCount();
+										}
+									}
+								}
+								return 0;
+							}
+						}.getAmount((int) (0))));
 				{
 					ItemStack _setval = (new Object() {
 						public ItemStack getItemStack(int sltid) {
@@ -495,51 +512,700 @@ public class SaveItemsProcedure {
 					});
 				}
 				{
-					double _setval = (new Object() {
-						public int getAmount(int sltid) {
-							if (entity instanceof ServerPlayerEntity) {
-								Container _current = ((ServerPlayerEntity) entity).openContainer;
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
 								if (_current instanceof Supplier) {
 									Object invobj = ((Supplier) _current).get();
 									if (invobj instanceof Map) {
-										ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-										if (stack != null)
-											return stack.getCount();
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
 									}
 								}
 							}
-							return 0;
+							return ItemStack.EMPTY;
 						}
-					}.getAmount((int) (0)));
+					}.getItemStack((int) (21)));
 					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.itemSlotquantity0 = _setval;
+						capability.itemSlot21 = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
 				{
-					double _setval = (new Object() {
-						public int getAmount(int sltid) {
-							if (entity instanceof ServerPlayerEntity) {
-								Container _current = ((ServerPlayerEntity) entity).openContainer;
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
 								if (_current instanceof Supplier) {
 									Object invobj = ((Supplier) _current).get();
 									if (invobj instanceof Map) {
-										ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-										if (stack != null)
-											return stack.getCount();
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
 									}
 								}
 							}
-							return 0;
+							return ItemStack.EMPTY;
 						}
-					}.getAmount((int) (1)));
+					}.getItemStack((int) (22)));
 					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.itemSlotquantity1 = _setval;
+						capability.itemSlot22 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (23)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot23 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (24)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot24 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (25)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot25 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (26)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot26 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (27)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot27 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (28)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot28 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (29)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot29 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (30)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot30 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (31)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot31 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (32)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot32 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (33)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot33 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (34)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot34 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (35)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot35 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (36)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot36 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (37)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot37 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (38)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot38 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (39)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot39 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (40)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot40 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (41)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot41 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (42)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot42 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (43)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot43 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (44)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot44 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (45)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot45 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (46)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot46 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (47)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot47 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (48)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot48 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (49)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot49 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (50)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot50 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (51)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot51 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (52)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot52 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (53)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot53 = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
 				MinecraftForge.EVENT_BUS.unregister(this);
 			}
-		}.start(world, (int) 0);
+		}.start(world, (int) 3);
 	}
 }
