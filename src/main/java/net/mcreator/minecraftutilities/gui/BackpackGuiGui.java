@@ -7474,7 +7474,7 @@ public class BackpackGuiGui extends MinecraftutilitiesModElements.ModElement {
 		if (slotID == 64 && changeType == 2) {
 			int amount = meta;
 
-			LoadItemsProcedure
+			SaveItemsProcedure
 					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
 							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}

@@ -1498,7 +1498,7 @@
             "name": "SaveItems"
           },
           "onStackTransfer": {
-            "name": "LoadItems"
+            "name": "SaveItems"
           },
           "name": "Slot #64",
           "x": 285,

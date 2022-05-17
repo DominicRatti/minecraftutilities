@@ -67,6 +67,20 @@ public class LoadItemsProcedure {
 						}
 					}
 				}
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							ItemStack _setstack = ((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot1);
+							_setstack.setCount((int) ((entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+									.orElse(new MinecraftutilitiesModVariables.PlayerVariables())).itemSlot1quantity));
+							((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
 				MinecraftForge.EVENT_BUS.unregister(this);
 			}
 		}.start(world, (int) 1);

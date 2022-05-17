@@ -75,6 +75,27 @@ public class SaveItemsProcedure {
 					});
 				}
 				{
+					ItemStack _setval = (new Object() {
+						public ItemStack getItemStack(int sltid) {
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									}
+								}
+							}
+							return ItemStack.EMPTY;
+						}
+					}.getItemStack((int) (1)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot1 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
 					double _setval = (new Object() {
 						public int getAmount(int sltid) {
 							if (entity instanceof ServerPlayerEntity) {
@@ -93,6 +114,28 @@ public class SaveItemsProcedure {
 					}.getAmount((int) (0)));
 					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.itemSlot0quantity = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					double _setval = (new Object() {
+						public int getAmount(int sltid) {
+							if (entity instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) entity).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+										if (stack != null)
+											return stack.getCount();
+									}
+								}
+							}
+							return 0;
+						}
+					}.getAmount((int) (1)));
+					entity.getCapability(MinecraftutilitiesModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.itemSlot1quantity = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
