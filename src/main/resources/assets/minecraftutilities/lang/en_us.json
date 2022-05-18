@@ -1,8 +1,12 @@
 {
+  "block.minecraftutilities.diamond_barrel": "Diamond Barrel",
+  "block.minecraftutilities.obsidian_barrel": "Obsidian Barrel",
   "itemGroup.tabminecraft_utilities": "Minecraft Utilities",
+  "block.minecraftutilities.iron_barrel": "Iron Barrel",
   "item.minecraftutilities.smelterpickaxe": "Smelterpickaxe",
   "key.categories.minecraftutilities": "Minecraft Utilities Mod",
   "item.minecraftutilities.back_pack": "Backpack Supremo",
   "block.minecraftutilities.gold_barrel": "Gold Barrel",
+  "block.minecraftutilities.barrel_trasparente": "Barrel Trasparente",
   "curios.identifier.back": "Backpack"
 }

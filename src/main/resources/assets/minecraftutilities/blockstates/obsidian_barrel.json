@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minecraftutilities:block/obsidian_barrel"
+    },
+    "facing=east": {
+      "model": "minecraftutilities:block/obsidian_barrel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minecraftutilities:block/obsidian_barrel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minecraftutilities:block/obsidian_barrel",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "minecraftutilities:block/obsidian_barrel",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "minecraftutilities:block/obsidian_barrel",
+      "x": 90
+    }
+  }
+}

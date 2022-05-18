@@ -212,17 +212,99 @@
       "locked_code": false,
       "registry_name": "gold_barrel",
       "path": "~/Chests"
+    },
+    {
+      "name": "GoldBarrelOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_barrel_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chests"
+    },
+    {
+      "name": "ObsidianBarrel",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_barrel",
+      "path": "~/Chests"
+    },
+    {
+      "name": "IronBarrel",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_barrel",
+      "path": "~/Chests"
+    },
+    {
+      "name": "DiamondBarrel",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_barrel",
+      "path": "~/Chests"
+    },
+    {
+      "name": "BarrelTrasparente",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrel_trasparente",
+      "path": "~/Chests"
+    },
+    {
+      "name": "IronGui",
+      "type": "gui",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_gui",
+      "path": "~/Chests"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.minecraftutilities.diamond_barrel": "Diamond Barrel",
+      "block.minecraftutilities.obsidian_barrel": "Obsidian Barrel",
       "itemGroup.tabminecraft_utilities": "Minecraft Utilities",
+      "block.minecraftutilities.iron_barrel": "Iron Barrel",
       "item.minecraftutilities.smelterpickaxe": "Smelterpickaxe",
       "key.categories.minecraftutilities": "Minecraft Utilities Mod",
       "item.minecraftutilities.back_pack": "Backpack Supremo",
       "block.minecraftutilities.gold_barrel": "Gold Barrel",
+      "block.minecraftutilities.barrel_trasparente": "Barrel Trasparente",
       "curios.identifier.back": "Backpack"
     }
   },
@@ -250,18 +332,12 @@
     "author": "Dominic, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
-    "disableForgeVersionCheck": true,
+    "disableForgeVersionCheck": false,
     "serverSideOnly": false,
-    "requiredMods": [
-      "curios"
-    ],
-    "dependencies": [
-      "curios"
-    ],
+    "requiredMods": [],
+    "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [
-      "curios"
-    ],
+    "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.minecraftutilities",

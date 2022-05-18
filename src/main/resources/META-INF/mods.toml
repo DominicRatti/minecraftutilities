@@ -17,18 +17,12 @@ authors="Dominic, MCreator"
     ordering="NONE"
     side="BOTH"
 
-
 [[dependencies.minecraftutilities]]
-    modId="curios"
+    modId="forge"
     mandatory=true
-    versionRange="[0,)"
+    versionRange="[36.2.26]"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.minecraftutilities]]
-    modId="curios"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
+
 
