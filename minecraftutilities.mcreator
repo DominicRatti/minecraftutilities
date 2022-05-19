@@ -290,13 +290,71 @@
       "locked_code": false,
       "registry_name": "iron_gui",
       "path": "~/Chests"
+    },
+    {
+      "name": "Pickaxe1BlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxe_1_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "Pickaxe1",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pickaxe_1",
+      "path": "~/Tools"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "pickaxe_x",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "pickaxe_y",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "pickaxe_z",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "block.minecraftutilities.diamond_barrel": "Diamond Barrel",
+      "item.minecraftutilities.pickaxe_1": "Pickaxe 1",
       "block.minecraftutilities.obsidian_barrel": "Obsidian Barrel",
       "itemGroup.tabminecraft_utilities": "Minecraft Utilities",
       "block.minecraftutilities.iron_barrel": "Iron Barrel",

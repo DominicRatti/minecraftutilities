@@ -4,7 +4,7 @@ public class MinecraftutilitiesModVariables {
 	public MinecraftutilitiesModVariables(MinecraftutilitiesModElements elements) {
 	}
 
-	public static double pickaxe_X = 0;
-	public static double pickaxe_Y = 0;
-	public static double pickaxe_Z = 0;
+	public static double pickaxe_x = 0;
+	public static double pickaxe_y = 0;
+	public static double pickaxe_z = 0;
 }
